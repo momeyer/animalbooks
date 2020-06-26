@@ -1,0 +1,29 @@
+{% extends "menu_bar.html" %}
+{% block body %}
+
+    <div class="container">
+        <img src="/static/dog.png" alt="" width="50%">
+        </div>
+        <form action="{{ url_for('search') }}" method="POST">
+          <div class="input-group mb-3">
+          <input id="search-bar" class="form-control" name="search" autocomplete="off" placeholder="search for author name, title, isbn">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary">search</button>
+          </div>
+        </div>
+        </form>
+    
+    {% block bookinfo %}
+
+
+    {% endblock %}
+
+
+    {% block grid %}
+
+
+    {% endblock %}
+
+
+{% endblock %}
+

@@ -1,0 +1,200 @@
+.profile
+{
+  background-color: rgb(76, 182, 159);
+  width: 50%;
+  margin-left: 25%;
+  padding-left: 5%;
+  padding-top: 150px;
+  padding-bottom: 600px;
+  
+}
+
+
+#book_info
+{
+  color: rgb(76, 182, 159);
+  margin-top: 100px;
+  border-radius: 2%;
+  padding: 15px;
+  margin-right: 15%;
+  background-color: rgba(255, 255, 255, .50);
+}
+
+#book_image
+{
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+#submit-review
+{
+  margin-top: 1px;
+}
+
+
+textarea
+{
+  border-width: 1px;
+}
+
+h1
+{
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+svg:hover
+{
+  transform: scale(1.8);
+}
+svg
+{
+  color: white;
+  margin-left: 15px;
+  transition: ease-in-out;
+}
+
+.menu
+{
+  background-color: rgb(76, 182, 159);
+  padding: 25px;
+  color: white;
+}
+
+.menu>div
+{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+header
+{
+  background-color: rgb(76, 182, 159);
+  padding: 5px;
+}
+
+body
+{
+  align-content: center;
+  background-color: rgb(186,231,228);
+  color: rgb(12, 119, 96) ;
+}
+
+.container {
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  color: rgb(12, 119, 96); }
+
+.form-control {
+  margin-left: 10%; }
+
+.btn-outline-secondary
+{ 
+  margin-right: 130px;
+}
+
+.btn-outline-secondary:hover
+{
+  background-color: rgb(76, 182, 159);
+}
+
+.btn {
+  background-color: rgb(76, 182, 159);
+  color: white;
+  border-color: rgb(76, 182, 159);
+  font-weight: bolder; }
+
+.form-control {
+  border-width: 5px;
+  border-color: rgb(76, 182, 159); }
+
+.card-img-top {
+  padding: 25px; }
+
+.part {
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;}
+
+.card-deck {
+  margin-left: 85px;
+  margin-right: 85px;
+  margin-bottom: 30px; }
+
+.card-text {
+  margin: 1px; }
+
+.card
+{
+  background-color: rgba(255,255,255,.45);
+  border-color: (186,231,228);
+}
+
+.card svg
+{
+  color: yellow;
+}
+
+.rating
+{
+  position: relative;
+  left: 15px;
+  top: 45px;
+  margin-bottom: 15px;
+  transform: translate(-50%,-50%) rotateY(180deg);
+  display: flex;
+}
+
+.rating input
+{
+  display: none;
+}
+
+.rating label
+{
+  display: block;
+  cursor: pointer;
+  width: 50px;
+}
+
+.rating label:before
+{
+  content: '\f005';
+  font-family: fontAwesome;
+  position: relative;
+  display: block;
+  font-size: 50px;
+  color: rgb(186,231,228);
+}
+.rating label:after
+{
+  content: '\f005';
+  font-family: fontAwesome;
+  position: absolute;
+  display: block;
+  position: absolute;
+  font-size: 50px;
+  top: 0;
+  color:rgb(255, 251, 4);
+  opacity: 0;
+  transition: .5s;
+  text-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after
+{
+  opacity: 1;
+}
+
+input[type="radio"] {
+  display: none; }
+input[type="radio"]:checked + label {
+    border: 0px solid white; }
+
+/*# sourceMappingURL=search.css.map */

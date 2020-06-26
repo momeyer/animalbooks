@@ -1,0 +1,68 @@
+body {
+  align-content: center;
+  background-color: #67D2BB; }
+
+.container {
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  color: white; }
+
+.form-control {
+  margin-left: 100px; }
+
+.btn {
+  margin-right: 100px;
+  background-color: #349074;
+  color: white;
+  border-color: #349074;
+  font-weight: bolder; }
+
+.form-control {
+  padding-top: 5px;
+  border-width: 5px;
+  border-color: #349074; }
+
+.card-img-top {
+  padding: 25px; }
+
+.part {
+  margin-top: 50px; }
+
+.card-deck {
+  margin-left: 85px;
+  margin-right: 85px;
+  margin-bottom: 30px; }
+
+#review {
+  margin-right: 50px; }
+
+.rating {
+  font-weight: bolder;
+  color: #F3FBC4;
+  margin-top: 10px;
+  font-size: 30px;
+  margin-left: 100px; }
+
+#book_info {
+  margin-right:30px;
+  background-color: rgba(52, 144, 116, 0.45);
+  color: white;
+  padding: 15px;
+  margin-top: 100px;
+  margin-left: 100px; }
+
+#group #submit {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 15px; }
+
+#book_image {
+  margin-left: 50px; }
+
+#text {
+  border-color: rgba(52, 144, 116, 0.45);
+  border-radius: 0px;
+  border-width: 5px; }
+
+/*# sourceMappingURL=book.css.map */

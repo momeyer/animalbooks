@@ -1,0 +1,140 @@
+$darkGreen: rgb(76, 182, 159);
+$backGroundColor: rgb(186,231,228);
+
+
+body
+{
+  align-content: center;
+  background-color: $backGroundColor;
+}
+
+
+.message
+{
+  position: relative;
+  color: rgba(255, 255, 255, 0.651);
+  font-weight: bold;
+  text-align: center;
+  font-size: 45px;
+}
+
+#error-image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container {
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  color: white; }
+
+#username-password {
+  background-color: rgba(255, 255, 255, 0.75);
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 4%;
+  position: absolute;
+  top: 35%;
+  left: 65%;
+  transform: translate(-50%, -50%); }
+
+.second-container {
+  margin-top: 200px; }
+
+.form-control {
+  margin-top: 15px;
+  margin-bottom: 5px; }
+
+.row {
+  color: white;
+  margin: 50px;
+  margin-bottom: 0px; }
+
+#registration
+{
+    text-align: center;
+    background-color: $darkGreen;
+    padding: 25px;
+    border-radius: 4%;
+   
+    button
+    {
+        padding: 1px;
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+}
+
+.btn
+{
+  background-color: $darkGreen;
+  color: white;
+  border-color: $darkGreen;
+  font-weight: bolder;
+}
+
+
+input[type="radio"]
+{
+    display: none;
+    &:checked + label
+    {
+        border: 2px solid white;
+    }   
+}
+
+.avatar-image
+{
+    transition: ease 0.3ms;
+    &:hover
+    {
+        transform: scale(1.5);
+    }
+
+    &:focus
+    {
+        border: none;
+}
+}
+
+
+
+
+@media screen and (max-width: 600px)
+{
+    .second-container
+    {
+        margin-top: 300px;
+    }
+
+    #image_bottom_left, #image_bottom_right
+    {
+        display: none;
+    }
+
+    .container
+    {
+        margin-top: 80px;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    #username-password
+    {
+        position: absolute;
+        top: 150%;
+        left: 50%;
+    }
+
+    .btn
+    {
+        margin: 5px;
+    }
+}

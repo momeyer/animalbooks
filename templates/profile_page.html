@@ -1,0 +1,23 @@
+{% extends "menu_bar.html" %}
+
+{% block title %} profile {{ user_info.username }} {% endblock %}
+
+{% block body %}
+
+<div class="profile">
+    <div class="card mb-3" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-md-4 col-sm-2" > 
+        <img src="/static/avatars/{{ user_info.avatar }}.png" class="card-img" alt="...">
+      </div>
+      <div class="col-md-8 col-sm-4">
+        <div class="card-body">
+          <h5 class="card-title"> Name: {{ user_info.first_name }} {{ user_info.last_name }}</h5>
+          <p class="card-text"> Username: {{ user_info.username }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+{% endblock %}
