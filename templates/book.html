@@ -61,8 +61,8 @@
         <div class="card-body">
           <h6 class="card-title">{{ user_info[review.user_id].username }}</h6>
           <p class="card-text"><small> {{ review.review}}</small></p>
-          <p class="card-text"><small> Rate: {% if review.rate == 0 %} 0 {% else %}
-              {% for i in range(review.rate) %}
+          <p class="card-text"><small> Rate: {% if review.rate|int == 0 %} 0 {% else %}
+              {% for i in range(review.rate|int) %}
                 <svg class="bi bi-star-fill mr-n3" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="#f5ce42"
                   xmlns="http://www.w3.org/2000/svg">
                   <path

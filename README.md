@@ -32,3 +32,5 @@ It is a virtual book store, where you can login/register, search for books, read
 ![image2](/snapshots/2.png)
 ![image3](/snapshots/3.png)
 ![image4](/snapshots/4.png)
+![image5](/snapshots/5.png)
+![image6](/snapshots/6.png)

@@ -275,7 +275,9 @@ def more(book_id):
         rate_dict = generate_rate_dict(book)
        
         goodreads_info = get_goodreads_reviews(book.isbn)
-        
+
+        print("-------------------", reviews_list)
+
         return render_template("book.html", book=book, reviews_list=reviews_list, goodreads_num_of_reviews=goodreads_info["goodreads_num_of_reviews"],  goodreads_avg_review=goodreads_info["goodreads_avg_review"],  user_info=user_info, rate_dict=rate_dict, pagetitle="Reviews from others")
 
 
