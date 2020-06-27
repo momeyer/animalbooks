@@ -28,4 +28,7 @@ It is a virtual book store, where you can login/register, search for books, read
 
 ### Try it! https://animalbooks.herokuapp.com/
 
-![GitHub Logo](/snapshots/1.png)
+![image1](/snapshots/1.png)
+![image2](/snapshots/2.png)
+![image3](/snapshots/3.png)
+![image4](/snapshots/4.png)
