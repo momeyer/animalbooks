@@ -79,6 +79,11 @@ input[type="radio"] {
 
   #image_bottom_left, #image_bottom_right {
     display: none; }
+  
+  
+  .avatar-image > img {
+    width: 7vw;
+  }
 
   .container {
     margin-top: 80px;

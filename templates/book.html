@@ -4,10 +4,10 @@
 
 {% block bookinfo %}
 <div class="row">
-  <div class="col-lg-6 col-sm-4">
+  <div class="col-lg-6 col-sm-12">
     <img id="book_image" src="http://covers.openlibrary.org/b/isbn/{{ book.isbn }}.jpg" alt="" width="400px">
   </div>
-  <div class="col-lg-6 col-sm-4">
+  <div class="col-lg-4 col-sm-12 offset-1">
     <div id="book_info">
         <h2>{{ book.title }}
  </h2>
@@ -34,7 +34,7 @@
           <form action="{{ url_for('submit_review', book_id=book.id) }}" method="POST">
             <div class="input-group">
               <div id="group">
-                <textarea id="text" name="review" rows="4" cols="50"></textarea required>
+                <textarea id="text" name="review" rows="4" cols="30"></textarea required>
                   <div class="rating">
                     <input type="radio" name="rate" id="star5" value="5"><label for="star5"></label>
                     <input type="radio" name="rate" id="star4" value="4"><label for="star4"></label>

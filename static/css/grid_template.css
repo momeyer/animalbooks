@@ -143,7 +143,7 @@ body
 .rating
 {
   position: relative;
-  left: 15px;
+  left: 120px;
   top: 45px;
   margin-bottom: 15px;
   transform: translate(-50%,-50%) rotateY(180deg);
